@@ -1,0 +1,119 @@
+.cid_inspire_class {
+  *margin-right: .3em;
+  display: inline-block;
+  vertical-align: text-bottom;
+  position: relative;
+  top: 2px;
+ /*  width: 16px;
+  height: 16px; */
+  width: 32px;
+  height: 35px;
+  background-repeat: no-repeat;
+  text-indent: -900em;
+  background: url("./images/inspire.png") no-repeat 0 0; 
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+.cid_inspire_label li {
+  display: inline;
+}
+.cid_inspire_label li a {
+  background-color: #a7d8de;
+}
+.cid_inspire_label,
+.badge {
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 11.844px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #ffffff;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #68a0b0 !important; 
+  
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+.cid_inspire_label:empty,
+.badge:empty {
+  display: none;
+}
+a.cid_inspire_label:hover,
+a.cid_inspire_label:focus,
+a.badge:hover,
+a.badge:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.cid_inspire_label-important,
+.badge-important {
+  background-color: #b55457;
+}
+.cid_inspire_label-important[href],
+.badge-important[href] {
+  background-color: #954143;
+}
+.cid_inspire_label-warning,
+.badge-warning {
+  background-color: #f89406;
+}
+.cid_inspire_label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+.cid_inspire_label-success,
+.badge-success {
+  background-color: #468847;
+}
+.cid_inspire_label-success[href],
+.badge-success[href] {
+  background-color: #356635;
+}
+.label-info,
+.badge-info {
+  background-color: #3a87ad;
+}
+.cid_inspire_label-info[href],
+.badge-info[href] {
+  background-color: #2d6987;
+}
+.cid_inspire_label-inverse,
+.badge-inverse {
+  background-color: #333333;
+}
+.cid_inspire_label-inverse[href],
+.badge-inverse[href] {
+  background-color: #1a1a1a;
+}
+.btn .cid_inspire_label,
+.btn .badge {
+  position: relative;
+  top: -1px;
+}
+.btn-mini .cid_inspire_label,
+.btn-mini .badge {
+  top: 0;
+}
+a.cid_inspire_label:hover, a.cid_inspire_label:focus, a.badge:hover, a.badge:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #ef7100;
+}
+
+

@@ -1,0 +1,7 @@
+
+        [ckan.plugins]
+        CustomInspireDataset=ckanext.CustomInspireDataset.plugin:CustominspiredatasetPlugin
+
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
+    
